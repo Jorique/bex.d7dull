@@ -3,7 +3,7 @@
 use Bitrix\Main\Application;
 use Bitrix\Main\Config\Option;
 use Bitrix\Main\Localization\Loc;
-use Bitrix\Main\Text\String;
+use Bitrix\Main\Text\HtmlFilter;
 
 defined('ADMIN_MODULE_NAME') or define('ADMIN_MODULE_NAME', 'bex.d7dull');
 
@@ -64,7 +64,7 @@ $tabControl->begin();
                    size="50"
                    maxlength="5"
                    name="max_image_size"
-                   value="<?=String::htmlEncode(Option::get(ADMIN_MODULE_NAME, "max_image_size", 500));?>"
+                   value="<?=HtmlFilter::encode(Option::get(ADMIN_MODULE_NAME, "max_image_size", 500));?>"
                    />
         </td>
     </tr>
