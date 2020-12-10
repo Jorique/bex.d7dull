@@ -8,7 +8,7 @@ use Bex\D7dull\ExampleTable;
 
 Loc::loadMessages(__FILE__);
 
-class bex_d7dull extends CModule
+class jorique_bex_d7dull extends CModule
 {
     public function __construct()
     {
