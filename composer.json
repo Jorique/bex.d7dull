@@ -1,5 +1,5 @@
 {
-  "name": "bitrix-expert/bex.d7dull",
+  "name": "jorique/bex.d7dull",
   "description": "Заготовка модуля на d7, на основе которой можно разрабатывать свои решения",
   "keywords": ["bitrix", "Битрикс", "d7", "модуль"],
   "type": "bitrix-module",
@@ -7,12 +7,12 @@
   "support": {
     "www": "http://bitrix.expert",
     "skype": "may_cat_ghost",
-    "source": "http://github.com/bitrix-expert/bex.d7dull/"
+    "source": "https://github.com/jorique/bex.d7dull/"
   },
   "authors": [
     {
-      "name": "Цупко Игорь (may_cat)",
-      "email": "maicatus@gmail.com"
+      "name": "Alexander Zhuravlev",
+      "email": "alex@100up.ru"
     }
   ],
   "extra": {
