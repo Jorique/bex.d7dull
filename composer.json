@@ -16,7 +16,7 @@
     }
   ],
   "extra": {
-    "installer-name": "bex.d7dull"
+    "installer-name": "bex.d7dullio"
   },
   "require": {
     "composer/installers": ">=1.0.22 <2.0"
